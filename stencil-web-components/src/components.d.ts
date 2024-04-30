@@ -12,6 +12,10 @@ export namespace Components {
     }
     interface StencilBubbleChart {
         /**
+          * Title (name) of the chart
+         */
+        "chartTitle": string;
+        /**
           * Bubble chart data
          */
         "data": Array<BubbleChartItem>;
@@ -39,6 +43,10 @@ declare namespace LocalJSX {
     interface LocalDevComponent {
     }
     interface StencilBubbleChart {
+        /**
+          * Title (name) of the chart
+         */
+        "chartTitle"?: string;
         /**
           * Bubble chart data
          */

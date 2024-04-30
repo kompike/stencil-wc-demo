@@ -73,7 +73,7 @@ export class LocalDevComponent {
 
   render() {
     return (
-      <stencil-bubble-chart data={DATA}></stencil-bubble-chart>
+      <stencil-bubble-chart data={DATA} chartTitle={"Chart Title"}></stencil-bubble-chart>
     );
   }
 
