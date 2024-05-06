@@ -1,7 +1,7 @@
 {
-  "name": "stencil-web-components",
+  "name": "@kompike/stencil-web-components",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Stencil Web Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/kompike/stencil-wc-demo.git"
   },
   "files": [
     "dist/",

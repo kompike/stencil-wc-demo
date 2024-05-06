@@ -7,9 +7,10 @@
 
 ## Properties
 
-| Property | Attribute | Description       | Type                | Default     |
-| -------- | --------- | ----------------- | ------------------- | ----------- |
-| `data`   | --        | Bubble chart data | `BubbleChartItem[]` | `undefined` |
+| Property     | Attribute     | Description               | Type                | Default     |
+| ------------ | ------------- | ------------------------- | ------------------- | ----------- |
+| `chartTitle` | `chart-title` | Title (name) of the chart | `string`            | `undefined` |
+| `data`       | --            | Bubble chart data         | `BubbleChartItem[]` | `undefined` |
 
 
 ## Dependencies
