@@ -1,0 +1,12 @@
+#root {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+stencil-bubble-chart {
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 600px;
+}
