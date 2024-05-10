@@ -1,5 +1,5 @@
 {
-  "name": "react-example",
+  "name": "stencil-react-example",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kompike/stencil-web-components": "^0.0.1",
+    "@kompike/stencil-web-components": "^0.0.2",
     "react": "^0.0.0-experimental-1beb73de0f-20240503",
     "react-dom": "^0.0.0-experimental-1beb73de0f-20240503"
   },

@@ -1,5 +1,4 @@
 import {Component, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
 import {BubbleChartItem} from "@kompike/stencil-web-components";
 
 const DATA: Array<BubbleChartItem> = [
@@ -68,13 +67,12 @@ const DATA: Array<BubbleChartItem> = [
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppComponent {
-  title = 'angular-example';
+  public chartTitle: string = 'Stencil Chart in Angular';
 
-  chartData: Array<BubbleChartItem> = DATA;
+  public chartData: Array<BubbleChartItem> = DATA;
 }

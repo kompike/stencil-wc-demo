@@ -1,3 +1,14 @@
+:host {
+  display: block;
+  width: 600px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 stencil-bubble-chart {
   display: block;
   height: 600px;

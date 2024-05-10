@@ -1,5 +1,5 @@
 {
-  "name": "vue-example",
+  "name": "stencil-vue-example",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kompike/stencil-web-components": "^0.0.1",
+    "@kompike/stencil-web-components": "^0.0.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {

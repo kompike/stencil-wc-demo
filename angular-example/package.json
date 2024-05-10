@@ -1,6 +1,6 @@
 {
-  "name": "angular-example",
-  "version": "0.0.0",
+  "name": "stencil-angular-example",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,12 +14,9 @@
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
     "@angular/core": "^17.3.0",
-    "@angular/forms": "^17.3.0",
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
-    "@angular/router": "^17.3.0",
-    "@kompike/stencil-web-components": "^0.0.1",
-    "rxjs": "~7.8.0",
+    "@kompike/stencil-web-components": "^0.0.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },

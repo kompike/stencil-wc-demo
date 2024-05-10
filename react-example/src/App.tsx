@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import './App.css'
+import ReactLogoSvg from './assets/react.svg';
 import {BubbleChartItem} from "@kompike/stencil-web-components";
 
 const DATA: Array<BubbleChartItem> = [
@@ -70,9 +71,12 @@ function App() {
 
     return (
         <>
-            <h1>Vite + React</h1>
+            <header>
+                <img alt="React logo" className="logo" src={ReactLogoSvg} width="125" height="125"/>
+                <h1>Stencil + React</h1>
+            </header>
 
-            <stencil-bubble-chart data={data}></stencil-bubble-chart>
+            <stencil-bubble-chart data={data} chartTitle="Stencil Chart in React"></stencil-bubble-chart>
         </>
     )
 }

@@ -67,9 +67,10 @@ const data = [
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125"/>
+    <h1>Stencil + Vue Example</h1>
   </header>
 
-  <stencil-bubble-chart .data="data"></stencil-bubble-chart>
+  <stencil-bubble-chart .data="data" .chartTitle="'Stencil Chart in Vue'"></stencil-bubble-chart>
 </template>
 
 <style scoped>
@@ -77,11 +78,9 @@ header {
   height: 120px;
   margin: 8px 0;
   box-sizing: border-box;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 stencil-bubble-chart {
