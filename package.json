@@ -1,0 +1,26 @@
+{
+  "name": "stencil-wc-demo",
+  "version": "1.0.0",
+  "workspaces": [
+    "angular-example",
+    "react-example",
+    "vue-example",
+    "stencil-web-components"
+  ],
+  "description": "Usage of Stencil web components in popular frameworks",
+  "scripts": {
+    "angular-example-install": "cd angular-example && npm install",
+    "react-example-install": "cd react-example && npm install",
+    "vue-example-install": "cd vue-example && npm install",
+    "angular-example": "cd angular-example && npm run start",
+    "react-example": "cd react-example && npm run dev",
+    "vue-example": "cd vue-example && npm run dev",
+    "install-deps": "concurrently \"npm run angular-example-install\" \"npm run react-example-install\" \"npm run vue-example-install\"",
+    "demo": "concurrently --kill-others \"npm run angular-example\" \"npm run react-example\" \"npm run vue-example\""
+  },
+  "author": "kompike",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
