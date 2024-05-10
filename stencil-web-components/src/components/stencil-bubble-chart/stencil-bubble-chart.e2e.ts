@@ -1,4 +1,4 @@
-import { newE2EPage } from '@stencil/core/testing';
+import {newE2EPage} from '@stencil/core/testing';
 
 describe('stencil-bubble-chart', () => {
   it('renders', async () => {

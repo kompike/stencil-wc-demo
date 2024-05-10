@@ -22,5 +22,9 @@ export const config: Config = {
   ],
   testing: {
     browserHeadless: "new",
+    transform: {
+      '^.+\\.(ts|tsx|js|jsx|css)$': "@stencil/core/testing/jest-preprocessor"
+    },
+    transformIgnorePatterns: ["/node_modules/(?!d3|d3-array|internmap|delaunator|robust-predicates)"]
   },
 };

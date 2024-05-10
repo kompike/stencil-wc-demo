@@ -201,14 +201,14 @@ export class StencilBubbleChart {
     selection
       .style("opacity", 1)
       .html(`${d.label}: ${d.size}`)
-      .style("left", `${event.x}px`)
-      .style("top", `${event.y + TOOLTIP_TOP_PADDING_PX}px`);
+      .style("left", `${event.offsetX}px`)
+      .style("top", `${event.offsetY + TOOLTIP_TOP_PADDING_PX}px`);
   }
 
   private onMouseMove(event: MouseEvent): void {
     select(this.tooltip)
-      .style("left", `${event.x}px`)
-      .style("top", `${event.y + TOOLTIP_TOP_PADDING_PX}px`);
+      .style("left", `${event.offsetX}px`)
+      .style("top", `${event.offsetY + TOOLTIP_TOP_PADDING_PX}px`);
   }
 
   private onMouseLeave(): void {
