@@ -2,6 +2,7 @@
   "name": "@kompike/stencil-web-components",
   "version": "0.0.2",
   "description": "Stencil Web Components",
+  "author": "kompike",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",

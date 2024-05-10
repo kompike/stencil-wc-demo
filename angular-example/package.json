@@ -1,6 +1,7 @@
 {
   "name": "stencil-angular-example",
   "version": "0.0.1",
+  "author": "kompike",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
